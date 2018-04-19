@@ -1,8 +1,2 @@
-# Alex-D
-I'm a new python3er
-echo "# Alex-D" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ZhongAlexMrD/Alex-D.git
-git push -u origin master
+
+ 主要用于记录本人在学习matlab机器学习的时候的案例和思想
