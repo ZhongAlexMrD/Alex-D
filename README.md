@@ -1,8 +1,4 @@
-# Alex-D
-I'm a new python3er
-echo "# Alex-D" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ZhongAlexMrD/Alex-D.git
-git push -u origin master
+
+ 1、主要用于记录本人在学习matlab机器学习的时候的案例和思想
+ 2、关于这里的GNN和CNN
+  这里的BreastTissue是本次案例的数据集，该数据集属于分类的数据集。但是该数据集样本总量很小，而且各个种类之间的样本数量相差较大，因此在划分训练集和验证集的时候，采取了分层抽样的办法来保证样本分布的一致性。这里有两本版本的m文件，一个是对数据集进行了归一化之后再进行训练；另一个是不进行归一化处理直接对样本进行训练，此处可以看出在样本容量明显不足的情况下，对数据进行归一化处理对PNN神经网络效果的提升有比较大的效果。（可以使得两种神经网络学习的效果相当）但由于每个类别的数据集样本实在太少（样本数做多的类别的数据量只有十来个），神经网络的学习效果并不好。对比之前的iris数据集，我认为每个类别的样本数据量至少为40个才能有比较好的学习效果
